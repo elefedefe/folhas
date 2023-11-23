@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+  }
+/* Seu estilo anterior permanece inalterado */
+
+/* Estilo para a tabela */
+table {
+  width: 80%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+#imagemTopo {
+  width: 100%;
+  max-height: 300px; /* Ajuste conforme necessário */
+  object-fit: cover;
+}
+/* ... Seu estilo anterior permanece inalterado ... */
+
+/* Estilo para a tabela container com rolagem */
+#tabelaContainer {
+  max-height: 400px; /* Ajuste conforme necessário */
+  overflow: auto;
+}

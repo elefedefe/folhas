@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problema das Folhas</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <div id="conteudo">
+    <img src="img/peter-aschoff-k3IogSsONd4-unsplash.jpg" alt="Árvores com folhas de outono" id="imagemTopo">
+
+    <label for="folhasInput">Folhas no Primeiro Dia:</label>
+    <input type="number" id="folhasInput" placeholder="Número de folhas">
+
+    <label for="variacaoInput">Variação Diária:</label>
+    <input type="number" id="variacaoInput" placeholder="Variação diária">
+
+    <label for="diaInput">Digite o número do dia:</label>
+    <input type="number" id="diaInput" placeholder="Dia">
+
+    <button onclick="calcularFolhasNoDia()">Calcular Folhas no Dia</button>
+    <p id="resultadoDia"></p>
+
+    <button onclick="calcularTotalFolhas()">Calcular Total de Folhas</button>
+    <p id="resultadoTotal"></p>
+
+    <h2>Tabela de Folhas</h2>
+    <div id="tabelaContainer">
+      <table id="tabelaFolhas">
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Folhas no Dia</th>
+            <th>Total Acumulado</th>
+          </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
